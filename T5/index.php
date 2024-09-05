@@ -3,7 +3,7 @@ session_start();
 include "DB.php";
 include "func.php";
 
-if($_SESSION['verify']=="ok"){
+if($_SESSION['verify']=="ok"||$_SESSION['verify']=="admin"){
     header("Location: login.php");
 
 // $conn=$conn_board;

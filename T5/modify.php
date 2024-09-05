@@ -10,7 +10,7 @@ $sql = "SELECT * FROM board WHERE idx = '$idx'";
 $result = mysqli_query($conn, $sql);
 $row = mysqli_fetch_assoc($result);
 
-if($_SESSION['verify']=="ok"){
+if($_SESSION['verify']=="ok"||$_SESSION['verify']=="admin"){
     header("Location: login.php");
 
 ?>

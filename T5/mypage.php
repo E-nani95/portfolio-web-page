@@ -1,6 +1,6 @@
 <?php
 session_start();
-if($_SESSION['verify']=="ok"){
+if($_SESSION['verify']=="ok"||$_SESSION['verify']=="admin"){
 
 ?>
 
