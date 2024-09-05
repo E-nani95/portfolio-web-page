@@ -1,0 +1,61 @@
+body {
+    background-color: #C3E5AE;
+}
+.item {
+    width: 14%;
+    height: 100px;
+    border: 1px solid #aaa;
+    float: left;
+    background-color: #E5E5E5;
+}
+.choice {
+    display: flex;
+    justify-content: end;
+}
+.today {
+    background-color: #4CAF50; 
+    color: white; 
+}
+select {
+    text-align: center;
+    height: 30px;
+    margin-right: 10px;
+    background-color: #E5E5E5; 
+    border: 1px solid #aaa; 
+    border-radius: 5px;
+    padding: 5px; 
+    font-size: 14px; 
+}
+button {
+    background-color: #E5E5E5; 
+    color: #333; 
+    /* border: none; */
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 8px 15px; 
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 14px;
+}
+button:hover {
+    background-color: #ccc; 
+}
+form {
+    padding-right: 20px;
+}
+h1 {
+    font-size: 30pt;
+    padding-left: 10px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    text-decoration-line: underline;
+}
+
+.Dday{
+    background-color: #4c63af; 
+    color: white; 
+}
