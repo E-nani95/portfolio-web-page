@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- 생성 시간: 24-08-18 20:39
+-- 생성 시간: 24-09-05 19:27
 -- 서버 버전: 10.4.32-MariaDB
 -- PHP 버전: 8.2.12
 
@@ -741,7 +741,6 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`idx`, `id`, `password`, `name`, `email`) VALUES
-(3, 'abc', '123', '', 'def'),
 (31, 'qwer', '$2y$10$3Hn2/cxbCqe57X5I.ceJmuAmXV7w5SWgK8A0RFN55FoqJY/7lfO0a', '쿠쿠', 'qwer@qwer.com'),
 (32, 'sss', '$2y$10$kCTLA9IayjChSueVp4fUgOsQNiJpSoNZohcpzEr0hgYNF46qdKtFa', 'sss', 'sss@sss.com'),
 (33, 'qqq', '$2y$10$9XT5GdI9GdcOwVeOKD/ewe5yJG3sp4XYqA5jwfem7CQ6xxHIR3phq', '테스트', 'qqq@qqq.com'),
@@ -752,8 +751,7 @@ INSERT INTO `users` (`idx`, `id`, `password`, `name`, `email`) VALUES
 (43, 'hi', '$2y$10$./WJaqIx5aPdTFFuZshzqerPEx319Rg6o3mw/rk2DQCDaR/umFX92', 'hi', 'hi'),
 (45, '111', '$2y$10$XV9GIkF7zPLtwENPBkQaF.gYn8L10ddfKiljBlQDLcknJa96z/MwO', '111', 'sss'),
 (47, 'nnn', '$2y$10$Jx8T0VlfGMu6DZY2vHh1y.qCza4evTXmJ1qTbi9U/x26O67rwmZEC', 'nnn', 'nnn'),
-(48, 'admin', '$2y$10$jsV.FqLj0UgbOQwh4kCIfuOPiv5SrytUKCsSWkmI2S2lAJ/MOyD8O', 'admin', 'admin'),
-(50, 'fff', '$2y$10$sMa4UO2rOQyKCvcCU8fcs.wiRmSPTG9B8R/kCniHvAAbfT4X21NK2', 'fff', 'fff');
+(55, 'admin', '$2y$10$HjYxl5.BpNo7WwFnqn9Qqe6E26VYffo0Jl3N9VdkUzM4yGiPNgSgm', 'admin', 'admin');
 
 --
 -- 덤프된 테이블의 인덱스
@@ -809,7 +807,7 @@ ALTER TABLE `ripple`
 -- 테이블의 AUTO_INCREMENT `users`
 --
 ALTER TABLE `users`
-  MODIFY `idx` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=51;
+  MODIFY `idx` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=56;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
