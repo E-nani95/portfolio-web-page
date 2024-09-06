@@ -5,7 +5,7 @@ include "DB.php";
 
 $Empty='';
 if(empty($_POST['reply_content'])){
-    echo "<script> alert(\"EmptyId\"); history.back(1); </script>";
+    echo "<script> alert(\"Emptycontent\"); history.back(1); </script>";
     exit();
 }else{
     $EmptyId="W";

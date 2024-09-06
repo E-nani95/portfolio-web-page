@@ -1,9 +1,9 @@
 <?php
 session_start();
 include "func.php";
-if(!isset($_SESSION['verify'])){
-    header("Location: login.php");
-}
+if($_SESSION['verify']=="ok"||$_SESSION['verify']=="admin"){
+    
+    // echo $_SESSION['verify'];
 ?>
 
 <!DOCTYPE html>
@@ -87,3 +87,9 @@ if(!isset($_SESSION['verify'])){
 
 </body>
 </html>
+
+<?php
+}else{
+    header("Location: login.php");
+}
+?>
